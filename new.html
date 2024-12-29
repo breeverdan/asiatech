@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Asiatech PH Financing, your trusted partner in lending and financial services.">
+    <title>Asiatech PH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+        }
+        header {
+            position: relative;
+            background-image: url('image/banner.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1em;
+            height: 300px;
+            text-align: center;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+            z-index: 1;
+        }
+        header .header-content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header img {
+            width: 150px;
+            margin-bottom: 1em;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0.5em 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            text-align: center;
+            margin-top: 1em;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1em;
+        }
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .feature {
+            background: #fff;
+            margin: 1em;
+            padding: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            width: calc(33% - 2em);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+        @media (max-width: 768px) {
+            header {
+                height: 50vh; /* Adjust header height for smaller screens */
+            }
+            .feature {
+                width: calc(100% - 2em);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images.png" alt="AsiatechPH Logo">
+            <h1>Asiatech PH Financing</h1>
+            <p>Your trusted partner in lending and financial services.</p>
+        </div>
+    </header>
+    <nav>
+        <a href="https://sfo-loanservice.com/" target="_blank">Register</a>
+        <a href="#Services">Services</a>
+        <a href="#About">About Us</a>
+        <a href="#Contact Us">Contact Us</a>
+    </nav>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Personal Loans</h3>
+                <p>Tailored solutions for home renovations, medical expenses, or vacations.</p>
+                <img src="images.png" alt="Personal Loans Image" style="width:100%; border-radius: 10px; margin-top: 1em;">
+                
+            </div>
+
+            <div class="feature">
+                <h3>Business Loans</h3>
+                <p>Capital for expansion, equipment purchases, or operational needs.</p>
+                <img src="business-loans.jpg" alt="Business Loans Image" style="width:100%; border-radius: 10px; margin-top: 1em;">
+                
+            </div>
+
+            <div class="feature">
+                <h3>Mortgage Loans</h3>
+                <p>Options for first-time homebuyers or refinancing.</p>
+                <img src="mortgage-loans.jpg" alt="Mortgage Loans Image" style="width:100%; border-radius: 10px; margin-top: 1em;">
+                
+            </div>
+
+            <div class="feature">
+                <h3>Investment Advisory</h3>
+                <p>Guidance on portfolio management and retirement planning.</p>
+                <img src="investment-advisory.jpg" alt="Investment Advisory Image" style="width:100%; border-radius: 10px; margin-top: 1em;">
+                
+            </div>
+
+            <div class="feature">
+                <h3>Financial Consultancy</h3>
+                <p>Strategic insights for optimizing financial performance.</p>
+                <img src="financial-consultancy.jpg" alt="Financial Consultancy Image" style="width:100%; border-radius: 10px; margin-top: 1em;">
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>AsiatechPH is committed to empowering individuals and businesses through innovative financial solutions. Our mission is to provide accessible and reliable services to help you achieve your goals.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: customer.service@asiatechph.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Asiatech PH Financing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
